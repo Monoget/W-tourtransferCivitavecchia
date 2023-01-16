@@ -560,13 +560,13 @@
 					items:3
 				},
 				1200:{
-					items:4
+					items:3
 				},
 				1500:{
-					items:4
+					items:3
 				},
 				1800:{
-					items:4
+					items:3
 				}
 			}
 		});    		

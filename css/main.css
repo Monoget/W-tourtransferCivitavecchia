@@ -148,7 +148,7 @@ p{
 
 .auto-container{
 	position:static;
-	max-width:1200px;
+	max-width:1350px;
 	padding:0px 15px;
 	margin:0 auto;
 }
@@ -1387,7 +1387,7 @@ img{
 	position:absolute;
 	left:0px;
 	top:100%;
-	width:230px;
+	width:300px;
 	z-index:100;
 	display:none;
 	opacity: 0;
@@ -2803,6 +2803,7 @@ img{
 	display:table;
 	padding:10px 20px;
 	vertical-align:middle;
+	background: #00000050;
 }
 
 .destinations-block .inner-box .overlay-box .overlay-inner .content{
@@ -3808,6 +3809,7 @@ img{
 	position:relative;
 	background-color:#ffffff;
 	box-shadow:0px 0px 15px rgba(0,0,0,0.10);
+	height: 550px;
 }
 
 .tour-block-two .inner-box .image{
@@ -3893,8 +3895,8 @@ img{
 	width:98px;
 	height:98px;
 	color:#c29d59;
-	font-size:20px;
-	padding-top:22px;
+	font-size: 25px;
+	padding-top: 32px;
 	line-height:1.3em;
 	border-radius:50px;
 	text-align:center;
