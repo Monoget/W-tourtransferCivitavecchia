@@ -2862,7 +2862,7 @@ img{
 	height:100px;
 	font-weight:700;
 	line-height:1.1em;
-	padding-top:20px;
+	padding-top:33px;
 	font-family: 'Merienda', cursive;
 	background:url(../images/icons/price-bg.png) no-repeat;
 }
@@ -3547,6 +3547,10 @@ img{
 .main-footer .footer-list li{
 	position:relative;
 	margin-bottom:10px;
+}
+
+.main-footer.style-two .footer-list li a:hover{
+	color:#c29d59 !important;
 }
 
 .main-footer .footer-list li a{
@@ -5150,8 +5154,8 @@ img{
 	height:98px;
 	color:#c29d59;
 	float:right;
-	font-size:20px;
-	padding-top:22px;
+	font-size: 26px;
+	padding-top: 32px;
 	line-height:1.3em;
 	border-radius:50px;
 	text-align:center;
