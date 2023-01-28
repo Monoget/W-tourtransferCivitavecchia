@@ -3784,8 +3784,18 @@ img{
 
 .donation-form-section-two .inner-container{
 	position:relative;
-	margin-top:-85px;
+	margin-top: -85px;
 	z-index:1;
+}
+
+@media only screen and (max-width: 768px) {
+	.donation-form-section-two .inner-container{
+		margin-top: unset;
+	}
+
+	#carouselExampleInterval{
+		margin-top: 65px;
+	}
 }
 
 /*** 

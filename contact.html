@@ -5,6 +5,9 @@
     <title>tourtransferCivitavecchia | Contact Us</title>
     <!-- Stylesheets -->
     <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+          integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link href="css/main.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
 
@@ -14,6 +17,27 @@
     <!-- Responsive -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+    <style>
+        .social-nav > li {
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        .social-nav > li a img {
+            width: 40px;
+        }
+
+        .contact-info-box .box-inner{
+            height: 630px;
+        }
+
+        @media only screen and (max-width: 768px) {
+            .contact-info-box .box-inner{
+                height: unset;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -220,34 +244,51 @@
             </div>
 
             <div class="row clearfix">
-
-                <!-- Contact Info Box -->
-                <div class="contact-info-box col-lg-4 col-md-6 col-sm-12">
-                    <div class="box-inner">
-                        <h5>Address</h5>
-                        <p>&nbsp;<br/>&nbsp;</p>
-                        <p>&nbsp;</p>
+                <div class="contact-info-box col-lg-6">
+                    <div class="box-inner text-center">
+                        <img src="images/bruno.jpg" alt=""/>
+                        <h5 class="mt-3">Visit Our Websites</h5>
+                        <ul>
+                            <li><a href="https://www.luxuryrometour.com/" class="text-dark">Luxury Rome Tour</a></li>
+                            <li><a href="https://cabshuttletaxi.com/" class="text-dark">Cab Shuttle Taxi</a></li>
+                            <li><a href="https://www.italyintours.com/" class="text-dark">Italy in tours</a></li>
+                        </ul>
                     </div>
                 </div>
-
-                <!-- Contact Info Box -->
-                <div class="contact-info-box col-lg-4 col-md-6 col-sm-12">
+                <div class="col-lg-6 contact-info-box">
                     <div class="box-inner">
-                        <h5>Phone</h5>
-                        <p>Please call us and we’ll be happy to <br> assist you</p>
-                        <p>+393460820821</p>
+                        <div class="row">
+                            <!-- Contact Info Box -->
+                            <div class="col-sm-12 mb-3">
+                                <h5>Phone</h5>
+                                <p>Please call us and we’ll be happy to assist you</p>
+                                <p>+393460820821</p>
+                            </div>
+
+                            <!-- Contact Info Box -->
+                            <div class="col-sm-12 mb-3">
+                                <h5>Email address</h5>
+                                <p>Please email contact form, and we’ll be happy to assist you</p>
+                                <p>info@tourtransferCivitavecchia.com</p>
+                            </div>
+                            <!-- Contact Info Box -->
+                            <div class="col-sm-12 mb-3">
+                                <h5>Follow US</h5>
+                                <ul class="social-nav">
+                                    <li><a href="https://www.facebook.com/luxuryrometour"><img
+                                            src="images/social/facebook.png" alt=""/></a></li>
+                                    <li><a href="https://www.instagram.com/luxury_rome_tour/"><img
+                                            src="images/social/instagram.png" alt=""/></a></li>
+                                    <li><a href="https://wa.me/+393317566672"><img src="images/social/whatsapp.png"
+                                                                                   alt=""/></a></li>
+                                    <li><a href="https://www.tiktok.com/@luxuryrometour"><img
+                                            src="images/social/tiktok.png" alt=""/></a></li>
+                                </ul>
+                            </div>
+
+                        </div>
                     </div>
                 </div>
-
-                <!-- Contact Info Box -->
-                <div class="contact-info-box col-lg-4 col-md-6 col-sm-12">
-                    <div class="box-inner">
-                        <h5>Email address</h5>
-                        <p>Please email contact form and we’ll be happy to assist you</p>
-                        <p>info@tourtransferCivitavecchia.com</p>
-                    </div>
-                </div>
-
             </div>
 
         </div>
@@ -279,10 +320,9 @@
                                     <ul class="social-nav">
                                         <li class="follow">Follow Us</li>
                                         <li><a href="#"><span class="fa fa-facebook-f"></span></a></li>
-                                        <li><a href="#"><span class="fa fa-google-plus"></span></a></li>
-                                        <li><a href="#"><span class="fa fa-pinterest-p"></span></a></li>
-                                        <li><a href="#"><span class="fa fa-linkedin"></span></a></li>
                                         <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+                                        <li><a href="#"><span class="fa fa-whatsapp"></span></a></li>
+                                        <li><a href="#"><span class="fa-brands fa-tiktok"></span></a></li>
                                     </ul>
                                     <div class="newsletter-box">
                                         <div class="newsletter-text">Subscribe to Our Newsletter</div>
