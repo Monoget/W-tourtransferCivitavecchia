@@ -645,7 +645,9 @@
 	}
 	
 	.page-title h2{
-		font-size:40px;
+		font-size:20px;
+		background: #000000a6;
+		padding: 25px 10px;
 	}
 	
 	.header-upper .outer-box, .main-header .header-upper .outer-box{
